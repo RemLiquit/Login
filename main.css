@@ -50,8 +50,8 @@ header {
 }
 
 .image img {
-  width: 130px;
-  height: 10rem;
+  width: 50%;
+  height: 100%;
 }
 
 .main-input {

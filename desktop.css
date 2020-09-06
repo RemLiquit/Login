@@ -27,21 +27,24 @@ header {
 }
 
 .main-container {
-  margin: auto;
   color: white;
   box-shadow: 1px 1px 1px 1px slategrey;
-  width: 30vw;
-  height: 70vh;
+  width: 20vw;
+  height: 60vh;
+}
+
+.main-container-content {
+  width: 20vw;
+  height: 50vh;
+  margin-top: 50px;
 }
 
 .main-image {
   display: flex;
   justify-content: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  width: 30vw;
-  height: 25vh;
-  border-radius: 2rem;
+  padding-bottom: 1rem;
+  width: inherit;
 }
 
 .image {
@@ -50,19 +53,21 @@ header {
 }
 
 .image img {
-  width: 130px;
-  height: 10rem;
+  width: 60%;
+  height: 100%;
 }
 
 .main-input {
+  font-size: 1.4rem;
+  display: inline-grid;
   margin: 0 auto;
   width: 20vw;
-  height: 15vh;
+  height: 20vh;
 }
 
 .main-input input {
   margin: 0.7rem auto;
-  width: 20vw;
+  width: 15vw;
 }
 
 .main-buttons {
@@ -71,7 +76,7 @@ header {
 }
 
 .main-buttons button a {
-  margin: 0.5rem;
+  margin-top: 3rem;
   width: 25vw;
   text-decoration: none;
 }
